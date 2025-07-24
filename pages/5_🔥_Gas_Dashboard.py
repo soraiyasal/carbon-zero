@@ -2893,7 +2893,6 @@ def get_dates_with_notes(hotel, year, month):
         return []
 
 def main():
-    add_dashboard_chatbot()
     client = setup_google_sheets()
     if not client:
         st.warning("Note-taking functionality may be limited due to Google Sheets configuration issues.")

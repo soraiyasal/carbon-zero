@@ -26,9 +26,7 @@ from email.mime.image import MIMEImage
 import base64
 import io
 import time
-from scipy import stats
 
-from shared_components import add_dashboard_chatbot  # Only this one
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -5431,7 +5429,6 @@ def show_forecasting_tab(monthly_data, hotel_data, selected_hotel, selected_year
             col2.metric("Payback Period", f"{payback_months:.1f} months" if payback_months != float('inf') else "> 60 months")
 
 def main():
-    add_dashboard_chatbot()
     client = setup_google_sheets()
     if not client:
         st.warning("Note-taking functionality may be limited due to Google Sheets configuration issues.")
