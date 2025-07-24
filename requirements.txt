@@ -1,0 +1,12 @@
+numpy
+openai
+pandas
+plotly
+streamlit
+gspread
+kaleido==0.2.1
+plotly>=5.0.0
+statsmodels==0.14.0  # or whatever version you want to use
+google-generativeai
+streamlit-chat
+scikit-learn>=1.0.0
