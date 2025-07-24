@@ -24,7 +24,6 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.image import MIMEImage
 import base64
-from shared_components import add_dashboard_chatbot  # Only this one
 import io
 import time
 # Add these imports at the top
