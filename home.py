@@ -1,5 +1,4 @@
 import streamlit as st
-from shared_components import add_dashboard_chatbot  # Only this one
 
 
 # Page configuration
